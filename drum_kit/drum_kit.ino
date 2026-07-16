@@ -6,11 +6,11 @@ Servo drum3;
 
 void setup() {
   Serial.begin(9600);
-  drum1.attach(3);  // servo 1 on pin 3
-  drum2.attach(5);  // servo 2 on pin 5
-  drum3.attach(6);  // servo 3 on pin 6
+  drum1.attach(3);  
+  drum2.attach(5);  
+  drum3.attach(6);  
 
-  // set all servos to starting position
+  // set all servos to start
   drum1.write(0);
   drum2.write(0);
   drum3.write(0);
