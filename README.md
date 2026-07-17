@@ -19,3 +19,6 @@ python main.py
 -------------------------------------------------------------------
 
 Upload drum_kit.ino to your Arduino, wire 3 servos to pins 3, 5, and 6, and update the COM port in main.py to match yours. (this was done on a arduino nano, but can be done with any other microcontroller model!)
+
+
+You can find the demo to the project here: https://mayonike52.github.io/
